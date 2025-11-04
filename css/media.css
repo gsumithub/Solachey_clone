@@ -1,0 +1,286 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+	.header{
+	    width: 100%;
+	    background: white;
+	    position: sticky;
+	    top: 0px;
+	    z-index: 1000;
+	}
+	.midheader>figure{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;  
+		align-items: center; 
+	}
+	.midheader>figure>img{
+		width: 50%;
+		display: flex;
+		justify-content: left;
+	}
+	.midheader>figure>i{
+    display: block;
+    padding-right: 20px;
+	}
+
+	.headeritems{
+		display: none;
+	}
+	
+	.banner{
+		display: none;
+	}
+	.midbanner{
+
+	}
+	.mobilebanner figure{
+		display: block;
+		max-width: none;
+		overflow-x: scroll;
+	}
+	.mobilebanner figure>img{
+		width: 200%;
+	}
+	.mobilefooter{
+		display: flex;
+	}
+	.discover{
+		padding: 20px;
+	}
+	.discover>h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    color: #2C4674;
+    text-align: center;
+	}
+	.discoveritems{
+	padding: 0px 10px;
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    overflow: hidden;
+    margin: 10px auto;
+    justify-items: center;
+	}
+	.image{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: transparent;
+	}
+	.about{
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+	.midabout{
+	    max-width: 1140px;
+	    margin: auto;
+	    display: flex;
+	    flex-direction: column;
+	    flex-direction: column-reverse;
+	    justify-content: center;
+	    align-items: center;
+	}
+	.midabout>figure{
+		width: 86%;
+		height: auto;
+		margin: auto;
+	    aspect-ratio: 1/1;
+	    position: relative;
+	    padding: -1px;
+	    flex-basis: 100%;
+	    border-radius: 10px;
+
+	}
+	.midabout>figure>img{
+	    width: 87%;
+	    height: auto;
+	    border-radius: 10px;
+	    position: absolute;
+	    animation: none;
+
+	}
+	.aboutcontent{
+	    padding: 20px;
+	    flex-basis: 100%;
+	}
+	.deal{
+   	display: none;
+	}
+	.mobiledeal{
+		display: block;
+
+	}
+	.mobiledeal figure{
+		border-radius: 10px;
+		max-width: none;
+		overflow-x: scroll;
+	}
+	.mobiledeal figure>img{
+		width: 220%;
+	}
+	.testimonialmid{
+		flex-direction: column;
+		padding: 20px;
+	}
+	.midblog{
+		flex-direction: column;
+	}
+	.testimonialmid{
+		gap: 20px;
+	}
+	.fixedicons {
+		display: none ;
+
+	}
+	.upperfooter{
+		flex-direction: column;
+	}
+}
+@media only screen and (min-width: 576px) and (max-width: 900px) {
+	.header{
+	    width: 100%;
+	    background: white;
+	    position: sticky;
+	    top: 0px;
+	    z-index: 1000;
+	}
+	.midheader>figure{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;  
+		align-items: center; 
+	}
+	.midheader>figure>img{
+		width: 50%;
+		display: flex;
+		justify-content: left;
+	}
+	.midheader>figure>i{
+    display: block;
+    padding-right: 20px;
+	}
+
+	.headeritems{
+		display: none;
+	}
+	
+	.banner{
+		display: none;
+	}
+	.midbanner{
+
+	}
+	.mobilebanner figure{
+		display: block;
+		max-width: none;
+		overflow-x: scroll;
+	}
+	.mobilebanner figure>img{
+		width: 200%;
+	}
+	.mobilefooter{
+		display: flex;
+	}
+	.discover{
+		padding: 20px;
+	}
+	.discover>h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    color: #2C4674;
+    text-align: center;
+	}
+	.discoveritems{
+	padding: 0px 10px;
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    overflow: hidden;
+    margin: 10px auto;
+    justify-items: center;
+	}
+	.image{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: transparent;
+	}
+	.about{
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+	.midabout{
+	    max-width: 1140px;
+	    margin: auto;
+	    display: flex;
+	    flex-direction: column;
+	    flex-direction: column-reverse;
+	    justify-content: center;
+	    align-items: center;
+	}
+	.midabout>figure{
+		width: 86%;
+		height: auto;
+		margin: auto;
+	    aspect-ratio: 1/1;
+	    position: relative;
+	    padding: -1px;
+	    flex-basis: 100%;
+	    border-radius: 10px;
+
+	}
+	.midabout>figure>img{
+	    width: 87%;
+	    height: auto;
+	    border-radius: 10px;
+	    position: absolute;
+	    animation: none;
+
+	}
+	.aboutcontent{
+	    padding: 20px;
+	    flex-basis: 100%;
+	}
+	.deal{
+   	display: none;
+	}
+	.mobiledeal{
+		display: block;
+
+	}
+	.mobiledeal figure{
+		border-radius: 10px;
+		max-width: none;
+		overflow-x: scroll;
+	}
+	.mobiledeal figure>img{
+		width: 220%;
+	}
+	.testimonialmid{
+		flex-direction: column;
+		padding: 20px;
+	}
+	.midblog{
+		flex-direction: column;
+	}
+	.testimonialmid{
+		gap: 20px;
+	}
+	.fixedicons {
+		display: none ;
+
+	}
+	.upperfooter{
+		flex-direction: column;
+	}
+}
